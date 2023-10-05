@@ -1,9 +1,12 @@
 import "./App.css";
+import CounterPage from "./pages/CounterPage";
 
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <div className="flex items-center justify-center mt-20">
+        <CounterPage />
+      </div>
     </>
   );
 }
